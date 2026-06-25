@@ -24,73 +24,43 @@ const SITE_CONFIG = {
 // 内置全部影视源配置，替换你现有config.js里的API_SITES
 const API_SITES = [
   {
-    name: "黑木耳",
-    api: "https://api.heimuer.tv/api.php/provide/vod/",
+    name: "360资源站",
+    api: "https://360zyzz.com/api.php/provide/vod",
     adult: false
   },
   {
-    name: "非凡影视",
-    api: "https://api.ffzyapi.com/api.php/provide/vod/",
+    name: "红牛资源",
+    api: "http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8",
     adult: false
   },
   {
-    name: "天涯资源",
-    api: "https://api.tyyszy.com/api.php/provide/vod/",
+    name: "最大资源",
+    api: "http://zuidazy.me/api.php/provide/vod",
     adult: false
   },
   {
-    name: "卧龙资源",
-    api: "shturl.cc/2PgDltOE8nnB0OE6AO2LFrVODCkYsjv1VYS",
+    name: "98资源",
+    api: "https://98zy.vip/api.php/provide/vod/at/json/?order=asc",
     adult: false
   },
   {
-    name: "360资源",
-    api: "https://api.zy360.top/api.php/provide/vod/",
+    name: "虎牙资源",
+    api: "https://www.huyaapi.com/api.php/provide/vod/at/json",
     adult: false
   },
   {
-    name: "新华为",
-    api: "https://api.xhwapi.com/api.php/provide/vod/",
+    name: "爱奇艺资源",
+    api: "https://iqiyizyapi.com/api.php/provide/vod",
     adult: false
   },
   {
-    name: "华为吧资源",
-    api: "https://api.hwbazy.com/api.php/provide/vod/",
+    name: "优质高清资源",
+    api: "https://api.yyzy-tv.vip/inc/apijson.php",
     adult: false
   },
   {
-    name: "极速资源",
-    api: "https://api.jszyapi.com/api.php/provide/vod/",
-    adult: false
-  },
-  {
-    name: "豆瓣资源",
-    api: "https://api.dbzytv.com/api.php/provide/vod/",
-    adult: false
-  },
-  {
-    name: "晶风资源",
-    api: "https://api.jfzytv.com/api.php/provide/vod/",
-    adult: false
-  },
-  {
-    name: "CK资源",
-    api: "https://api.ckzytv.com/api.php/provide/vod/",
-    adult: false
-  },
-  {
-    name: "超清资源",
-    api: "https://api.cqzytv.com/api.php/provide/vod/",
-    adult: false
-  },
-  {
-    name: "蓝光资源",
-    api: "https://api.lgzytv.com/api.php/provide/vod/",
-    adult: false
-  },
-  {
-    name: "影视吧",
-    api: "https://api.ysbapi.com/api.php/provide/vod/",
+    name: "黄色资源",
+    api: "https://155api.com/api.php/provide/vod/at/json/",
     adult: false
   }
 ];

@@ -57,11 +57,6 @@ const API_SITES = [
     name: "优质高清资源",
     api: "https://api.yyzy-tv.vip/inc/apijson.php",
     adult: false
-  },
-  {
-    name: "黄色资源",
-    api: "https://155api.com/api.php/provide/vod/at/json/",
-    adult: false
   }
 ];
 

@@ -21,14 +21,79 @@ const SITE_CONFIG = {
 };
 
 // API站点配置
-const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    }
-    //ARCHIVE https://telegra.ph/APIs-08-12
-};
+// 内置全部影视源配置，替换你现有config.js里的API_SITES
+const API_SITES = [
+  {
+    name: "黑木耳",
+    api: "https://api.heimuer.tv/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "非凡影视",
+    api: "https://api.ffzyapi.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "天涯资源",
+    api: "https://api.tyyszy.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "卧龙资源",
+    api: "shturl.cc/2PgDltOE8nnB0OE6AO2LFrVODCkYsjv1VYS",
+    adult: false
+  },
+  {
+    name: "360资源",
+    api: "https://api.zy360.top/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "新华为",
+    api: "https://api.xhwapi.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "华为吧资源",
+    api: "https://api.hwbazy.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "极速资源",
+    api: "https://api.jszyapi.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "豆瓣资源",
+    api: "https://api.dbzytv.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "晶风资源",
+    api: "https://api.jfzytv.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "CK资源",
+    api: "https://api.ckzytv.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "超清资源",
+    api: "https://api.cqzytv.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "蓝光资源",
+    api: "https://api.lgzytv.com/api.php/provide/vod/",
+    adult: false
+  },
+  {
+    name: "影视吧",
+    api: "https://api.ysbapi.com/api.php/provide/vod/",
+    adult: false
+  }
+];
 
 // 定义合并方法
 function extendAPISites(newSites) {

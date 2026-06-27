@@ -22,48 +22,146 @@ const SITE_CONFIG = {
 
 // API站点配置
 // 内置全部影视源配置，替换你现有config.js里的API_SITES
-const API_SITES = [
-  {
+const API_SITES = [{
     name: "360资源站",
     api: "https://360zyzz.com/api.php/provide/vod",
     adult: false
-  },
-  {
+},
+{
     name: "红牛资源",
     api: "http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8",
     adult: false
-  },
-  {
+},
+{
     name: "最大资源",
     api: "http://zuidazy.me/api.php/provide/vod",
     adult: false
-  },
-  {
+},
+{
     name: "98资源",
     api: "https://98zy.vip/api.php/provide/vod/at/json/?order=asc",
     adult: false
-  },
-  {
+},
+{
     name: "虎牙资源",
     api: "https://www.huyaapi.com/api.php/provide/vod/at/json",
     adult: false
-  },
-  {
+},
+{
     name: "爱奇艺资源",
     api: "https://iqiyizyapi.com/api.php/provide/vod",
     adult: false
-  },
-  {
-    name: "猫眼资源",
-    api: "https://api.maoyanapi.top/api.php/provide/vod",
-    adult: false
-  },
-  {
+},
+{
     name: "优质高清资源",
     api: "https://api.yyzy-tv.vip/inc/apijson.php",
     adult: false
-  }
-];
+},
+{
+    name: "量子资源",
+    api: "http://cj.lziapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "闪电资源",
+    api: "http://sdzyapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "金鹰资源",
+    api: "http://jyzyapi.com/provide/vod",
+    adult: false
+},
+{
+    name: "光速资源",
+    api: "http://api.guangsuapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "樱花资源",
+    api: "http://m3u8.apiyhzy.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "百度资源",
+    api: "http://api.apibdzy.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "艾丹资源",
+    api: "http://lovedan.net/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "360点播资源",
+    api: "https://360zy.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "牛牛资源",
+    api: "https://api.niuniuzy.me/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "丫丫资源",
+    api: "https://cj.yayazy.net/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "豪华资源",
+    api: "https://hhzyapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "极速资源",
+    api: "https://jszyapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "索尼资源",
+    api: "https://suoniapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "非凡资源",
+    api: "http://cj.ffzyapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "暴风资源",
+    api: "https://bfzyapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "飘零资源",
+    api: "https://p2100.net/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "无尽资源",
+    api: "https://api.wujinapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "速博资源",
+    api: "https://subocaiji.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "魔都资源",
+    api: "https://caiji.moduapi.cc/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "火狐资源",
+    api: "https://hhzyapi.com/api.php/provide/vod",
+    adult: false
+},
+{
+    name: "新浪资源",
+    api: "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    adult: false
+}];
 
 // 定义合并方法
 function extendAPISites(newSites) {

@@ -54,6 +54,11 @@ const API_SITES = [
     adult: false
   },
   {
+    name: "猫眼资源",
+    api: "https://api.maoyanapi.top/api.php/provide/vod",
+    adult: false
+  },
+  {
     name: "优质高清资源",
     api: "https://api.yyzy-tv.vip/inc/apijson.php",
     adult: false

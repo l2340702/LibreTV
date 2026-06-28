@@ -1,7 +1,7 @@
 const CUSTOMER_SITES = {
     qiqi: {
         api: 'https://155api.com/api.php/provide/vod/at/json/',
-        name: '未成年勿选，后果自负',
+        name: '未成年勿选',
     }
 };
 
